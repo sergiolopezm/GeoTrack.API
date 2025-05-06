@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GeoTrack.API.props" />
+</Project>

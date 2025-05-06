@@ -1,0 +1,17 @@
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\bin\Debug\net8.0\GeoTrack.API.Infrastructure.deps.json
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\bin\Debug\net8.0\GeoTrack.API.Infrastructure.runtimeconfig.json
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\bin\Debug\net8.0\GeoTrack.API.Infrastructure.dll
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\bin\Debug\net8.0\GeoTrack.API.Infrastructure.pdb
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\bin\Debug\net8.0\GeoTrack.API.Shared.dll
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\bin\Debug\net8.0\GeoTrack.API.Shared.pdb
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\GeoTrack.API.Infrastructure.csproj.AssemblyReference.cache
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\GeoTrack.API.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\GeoTrack.API.Infrastructure.AssemblyInfoInputs.cache
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\GeoTrack.API.Infrastructure.AssemblyInfo.cs
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\GeoTrack.API.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\GeoTrack.96DB7A71.Up2Date
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\GeoTrack.API.Infrastructure.dll
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\refint\GeoTrack.API.Infrastructure.dll
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\GeoTrack.API.Infrastructure.pdb
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\GeoTrack.API.Infrastructure.genruntimeconfig.cache
+C:\Fuentes\GeoTrack.API\GeoTrack.API.Infraestructure\obj\Debug\net8.0\ref\GeoTrack.API.Infrastructure.dll
