@@ -10,6 +10,8 @@ namespace GeoTrack.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [JwtAuthorization]
+    [ServiceFilter(typeof(LogAttribute))]
+    [ServiceFilter(typeof(ExceptionAttribute))]
     [ProducesResponseType(typeof(RespuestaDto), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(RespuestaDto), StatusCodes.Status400BadRequest)]
     [ProducesResponseType(typeof(RespuestaDto), StatusCodes.Status401Unauthorized)]

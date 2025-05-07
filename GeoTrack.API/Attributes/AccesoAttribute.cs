@@ -19,6 +19,8 @@ namespace GeoTrack.API.Attributes
             string sitio = context.HttpContext.Request.Headers["Sitio"].FirstOrDefault() ?? string.Empty;
             string clave = context.HttpContext.Request.Headers["Clave"].FirstOrDefault() ?? string.Empty;
 
+            System.Diagnostics.Debug.WriteLine($"Sitio: {sitio}, Clave: {clave}");
+
             if (string.IsNullOrEmpty(sitio) || string.IsNullOrEmpty(clave))
             {
                 context.Result = new ObjectResult(RespuestaDto.ParametrosIncorrectos(

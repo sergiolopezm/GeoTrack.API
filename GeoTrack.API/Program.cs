@@ -31,7 +31,7 @@ builder.Services.AddCors(options =>
         policyBuilder => policyBuilder
             .WithOrigins(
                 builder.Configuration.GetSection("AllowedOrigins").Get<string[]>() ??
-                new[] { "http://localhost:5000", "https://localhost:5001" })
+                new[] { "http://localhost:7295", "https://localhost:7295" })
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials());

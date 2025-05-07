@@ -9,7 +9,7 @@ namespace GeoTrack.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ServiceFilter(typeof(LoggingMiddleware))]
+    [ServiceFilter(typeof(LogAttribute))]
     [ServiceFilter(typeof(ExceptionAttribute))]
     [ProducesResponseType(typeof(RespuestaDto), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(RespuestaDto), StatusCodes.Status400BadRequest)]
@@ -81,13 +81,20 @@ namespace GeoTrack.API.Controllers
             }
             catch (Exception ex)
             {
+                var errorDetails = new
+                {
+                    Message = ex.Message,
+                    StackTrace = ex.StackTrace,
+                    InnerException = ex.InnerException?.Message
+                };
+
                 await _logRepository.ErrorAsync(
                     null,
                     HttpContext.Connection.RemoteIpAddress?.ToString(),
-                    "Login",
-                    ex.Message);
+                    "Login - Error Detallado",
+                    System.Text.Json.JsonSerializer.Serialize(errorDetails));
 
-                return StatusCode(500, RespuestaDto.ErrorInterno());
+                return StatusCode(500, RespuestaDto.ErrorInterno(ex.Message));
             }
         }
 
